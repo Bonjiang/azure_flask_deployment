@@ -1,4 +1,3 @@
-# azure_flask_deployment
 
 A step-by-step guide on how you set up and deployed your application. Imagine you're guiding someone unfamiliar with the process.
 # How to set up and deploy the application
