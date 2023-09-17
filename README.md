@@ -1,14 +1,13 @@
 
-A step-by-step guide on how you set up and deployed your application. Imagine you're guiding someone unfamiliar with the process.
 # How to set up and deploy the application
 
 ##### Flask Initiation
 
-First, use **'pip install flask'** to install the Flask. Then, create a python file **'app.py'** and templates to guide how the website would appear and function. For example,here, the names and titles are customized to your preference. 
+First, use **'pip install flask'** to install the Flask. Then, create a python file **'app.py'** and templates to guide how the website would appear and function. For example, here, the names and titles are customized to your preference. 
 
 ##### Install Azure CLI 
 
-To deploy, install Azure CLI using **'curl -sL https://aka.ms/InstallAzureCLIDeb | sudo bash'** This is done in one command or can be done step-by step following the instructions [Step-by-step installation instructions](https://learn.microsoft.com/en-us/cli/azure/install-azure-cli-linux?pivots=apt). Following that, we want to test that it installed with **'az'**. Following would be **'az login --use-device-code'**, which would prompt a code to be copied and pasted in the Microsoft login pop-ups. 
+To deploy, install Azure CLI using **'curl -sL https://aka.ms/InstallAzureCLIDeb | sudo bash'** This is done in one command or can be done step-by step following the [instructions](https://learn.microsoft.com/en-us/cli/azure/install-azure-cli-linux?pivots=apt). Following that, we want to test that it installed with **'az'**. Following would be **'az login --use-device-code'**, which would prompt a code to be copied and pasted in the Microsoft login pop-ups. 
 
 ##### Specific to our class
 
