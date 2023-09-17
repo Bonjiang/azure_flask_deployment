@@ -7,6 +7,16 @@ app = Flask(__name__)
 def index():
     return render_template('base.html')
 
+@app.route('/about')
+def aboutpage():
+    return render_template('about.html')
+
+df = pd.read_csv('https://raw.githubusercontent.com/hantswilliams/HHA_504_2023/main/WK1/data/113243405_StonyBrookSouthamptonHospital_StandardCharges.csv')
+@app.route('/data')
+def data(data=df):
+    data = data.sample(20)
+    return render_template('data.html', data=data)
+
 if __name__ == '__main__':
     app.run(
         debug=True,
